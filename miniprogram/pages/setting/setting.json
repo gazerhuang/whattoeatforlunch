@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-cell": "vant-weapp/cell",
+    "van-cell-group": "vant-weapp/cell-group",
+    "van-checkbox": "vant-weapp/checkbox",
+    "van-checkbox-group": "vant-weapp/checkbox-group",
+    "van-button": "vant-weapp/button"
+  }
+}

@@ -1,0 +1,8 @@
+/* pages/setting/setting.wxss */
+.value-class {
+  flex: none !important;
+}
+
+.btn_add{
+  margin-top: 20rpx;
+}

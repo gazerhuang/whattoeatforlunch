@@ -1,0 +1,9 @@
+<view class="index">
+<image class="img" src="{{image}}"></image>
+<view class="text">{{text}}</view>
+<button class="btn" type="primary" bindtap="btnClick">替我选择</button>
+<button hidden="{{isHidden}}" class="btn" type="default" bindtap="btn2Click">我还要选</button>
+
+</view>
+
+<van-toast id="van-toast" />

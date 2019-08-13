@@ -1,0 +1,28 @@
+<van-cell-group >
+    <van-cell
+      wx:for="{{ list }}"
+      wx:key="index"
+      title="{{ item }}"
+      value-class="value-class"
+      data-index="{{ index }}"
+    >
+      <van-button plain hairline icon="delete" type="danger" size="small" bindtap="delItem" data-id="{{ index }}">删除</van-button>
+    </van-cell>
+    
+  </van-cell-group>
+<van-field
+    value="{{ newItem }}"
+    center
+    clearable
+    label="我要吃"
+    placeholder="请填写名称"
+    border="{{ false }}"
+    use-button-slot
+    bind:change="onChange"
+  >
+    <van-button plain hairline slot="button" icon="plus" size="small" type="primary" bindtap="addItem" data-text="{{ newItem }}">添加</van-button>
+  </van-field>
+  
+  <!-- <van-button plain icon="plus" size="large" type="default">添加选项</van-button> -->
+  <van-button plain hairline icon="replay" size="large" type="warning" bindtap="resetData">重置数据</van-button>
+  <van-dialog id="van-dialog" />

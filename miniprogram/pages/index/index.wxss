@@ -1,0 +1,18 @@
+/* pages/index/index.wxss */
+.index{
+  text-align:center;
+  margin-top: 200rpx;
+}
+
+.text{
+  font-size: 40rpx;
+}
+
+.img{
+  height: 300rpx;
+  width: 300rpx;
+}
+
+.btn{
+  margin: 30rpx
+}
